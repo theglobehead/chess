@@ -1,0 +1,23 @@
+.ThreeCards{
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 130vh){
+  .ThreeCards{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .SixCards{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+

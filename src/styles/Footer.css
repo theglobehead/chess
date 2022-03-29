@@ -1,0 +1,16 @@
+.Footer{
+  padding: 20px;
+  color: white;
+  background: #232323;
+}
+
+.FooterImg{
+  filter: invert(20%) sepia(5%) saturate(18%) hue-rotate(327deg) brightness(94%) contrast(93%);
+  
+  height: 17vh;
+  float: right;
+}
+
+.FooterTable{
+  width: 100%;
+}

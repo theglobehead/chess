@@ -1,0 +1,75 @@
+.ImgInfo{
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 17vh;
+  margin-bottom: 17vh;
+}
+
+.ImgInfoText{
+  width: 40%;
+}
+
+.ImgInfoImg{
+  width: 25%;
+}
+
+.ImgLeft{
+  padding-left: 7%;
+}
+
+.ImgRight{
+  padding-right: 7%;
+}
+
+.InfoLeft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-direction: row-reverse;
+}
+
+.InfoRight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-direction: row;
+}
+
+@media screen and (max-width: 130vh){
+  .ImgInfo{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    margin-top: 17vh;
+    margin-bottom: 17vh;
+  }
+  
+  .ImgInfoText{
+    width: 70%;
+    text-align: center;
+
+    margin-bottom: 2vh;
+  }
+  
+  .ImgInfoImg{
+    width: 70%;
+  }
+
+  .ImgLeft{
+    padding: 0%;
+  }
+
+  .ImgRight{
+    padding: 0%;
+  }
+}

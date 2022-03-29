@@ -1,0 +1,19 @@
+.Header{
+  height: 70vh;
+  color: white;
+  
+  background: url(../images/chess_banner.png) rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.Header h1{
+  font-size: 4rem;
+}

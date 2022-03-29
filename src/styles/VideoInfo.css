@@ -1,0 +1,29 @@
+.VideoBox{
+  height: 18vw;
+  width: 32vw;
+}
+
+.VideoDiv{
+  width: 30vw;
+
+  display: table-cell;
+}
+
+.ImageInfoText{
+  display: table-cell;
+}
+
+.ImageInfo{
+  display: table-row;
+}
+
+@media screen and (max-width: 130vh){
+  .VideoDiv{
+    width: 80vw;
+    margin-bottom: 5vh;
+  }
+  .VideoBox{
+    height: 45vw;
+    width: 80vw;
+  }
+}

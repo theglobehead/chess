@@ -1,0 +1,20 @@
+.NavBar{
+  position: absolute;
+  top: 2vh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-evenly;
+
+  color: rgb(200, 200, 200);
+}
+
+.NavBar a{
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+}
+
+.NavBar a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
