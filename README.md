@@ -1,3 +1,9 @@
+# Chess website ♟️
+
+
+This is a simple website made using react js. I made it for school and haven't added text yet.  
+Here's the figma design: https://www.figma.com/file/WMNpx1r70f3Hn00OYyBvm8/Untitled?node-id=0%3A1  
+
 ## Running React on Repl.it
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
